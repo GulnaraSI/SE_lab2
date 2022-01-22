@@ -8,7 +8,9 @@ int main()
 int a, b;
 cout << "Enter two integer numbers"<<endl;
 cin>> a >>b;
-int c;
+int c, d;
 c=a-b;
+c=a/b;
 cout << "a-b="<<c<<endl;
+cout << "a/b="<<d<<endl;
 }
