@@ -1,13 +1,16 @@
-/*This program is just an example one under VCS*/
+/*This is a...*/
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
 int a, b;
-cout << "Enter A and B"<<endl;
+cout << "Enter two integer numbers"<<endl;
 cin>> a >>b;
-cout << "A+B="<<a+b<<'\n'<<endl;
-cout << "A-B="<<a-b<<'\n'<<endl;
-cout << "A*B="<<a*b<<'\n'<<endl;
+int c, d;
+c=a-b;
+cout << "a-b="<<c<<endl;
+d=a*b;
+cout << "a*b="<<d<<endl;
 }
