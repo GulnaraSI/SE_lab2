@@ -13,4 +13,7 @@ c=a-b;
 cout << "a-b="<<c<<endl;
 d=a*b;
 cout << "a*b="<<d<<endl;
+d=a/b;
+cout << "a/b="<<d<<endl;
 }
+
